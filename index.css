@@ -1,0 +1,145 @@
+body {
+	background: radial-gradient(circle closest-side at 60% 43%, #323232 26%, rgba(187,0,51,0) 27%), 
+	radial-gradient(circle closest-side at 40% 43%, #323232 26%, rgba(187,0,51,0) 27%), 
+	radial-gradient(circle closest-side at 40% 22%, #ffc0cb 45%, rgb(221 51 85 / 0%) 46%), 
+	radial-gradient(circle closest-side at 60% 22%, #ffc0cb 45%, rgba(221,51,85,0) 46%), 
+	radial-gradient(circle closest-side at 50% 35%, #ffc0cb 30%, rgba(221,51,85,0) 31%), 
+	radial-gradient(circle closest-side at 60% 43%, #323232 26%, rgba(187,0,51,0) 27%) 50px 50px, 
+	radial-gradient(circle closest-side at 40% 43%, #323232 26%, rgba(187,0,51,0) 27%) 50px 50px, 
+	radial-gradient(circle closest-side at 40% 22%, #e5b6f7 45%, rgba(221,51,85,0) 46%) 50px 50px, 
+	radial-gradient(circle closest-side at 60% 22%, #e5b6f7 45%, rgba(221,51,85,0) 46%) 50px 50px, 
+	radial-gradient(circle closest-side at 50% 35%, #e5b6f7 30%, rgba(221,51,85,0) 31%) 50px 50px;
+    background-color: #323232;
+    background-size: 100px 100px;
+    font-family: 'Lucida', monospace;
+    color:white;
+}
+
+h1{
+	display: inline-block;
+    font-size: 4em;
+    background: #000000b3;
+    padding: 10px;
+    border-radius: 20px;
+    user-select: none; 
+    margin-left: 20vw;  
+}
+
+h5{
+	display: inline-block;
+    background: #000000b3;
+    padding: 10px;
+    border-radius: 20px;
+    user-select: none; 
+    margin-left: 43vw;  
+}
+h1#Titulo{
+	margin: 30vh 18vw;
+}
+
+.botones_cnt{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  max-width: 130px;
+  max-height: 100px;
+
+}
+
+img{
+	border-radius: 20px;
+	margin-left: 30vw;
+}
+
+section#Yes{
+	width: 100%;
+}
+
+.button-no{
+	background: #fb607F;
+	max-width: 300px;
+}
+
+.button-yes{
+	background: #77dd77;
+	
+}
+
+.button:hover{
+	
+	transform: 	scale(1.1,1.1);
+}
+
+.button-big{
+	transform: 	scale(2,2);
+	margin-right: 40px;
+}
+
+.button-big:hover{
+	transform: 	scale(2.2,2.2);
+}
+
+.button-small{
+	transform: 	scale(0.5,0.5);
+}
+
+.button-small:hover{
+	transform: 	scale(0.7,0.7);
+}
+
+.button-very-small{
+	position: absolute;
+	transform: 	scale(0.2,0.2);
+}
+
+.button-very-small:hover{
+	transform: 	scale(0.4,0.4);
+}
+
+.button-really-big{
+	transform: 	scale(4,4);
+	margin-bottom: 100px;
+}
+
+.button-really-big:hover{
+	transform: 	scale(4.2,4.2);
+}
+
+.button-trap-yes:hover{
+	background: #fb607F;
+}
+
+.button-trap-yes::after {
+content: "YES";
+}
+
+.button-trap-yes:hover::after {
+ content: "NO";
+}
+
+
+.button-trap-no:hover{
+	background: #77dd77;
+}
+
+.button-trap-no::after {
+content: "NO";
+}
+
+.button-trap-no:hover::after {
+ content: "YES";
+}
