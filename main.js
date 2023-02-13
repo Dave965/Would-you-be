@@ -94,6 +94,7 @@ function aumentar(){
 
 function dijoSi(){
 	document.getElementById("seleccion").hidden = true;
+	document.getElementById("No").hidden = true;
 	document.getElementById("Yes").hidden = false;
 	switch(contador){
 	case 0:
